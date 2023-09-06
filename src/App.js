@@ -1,12 +1,20 @@
+import React from 'react';
+import NavBar from './components/NavBar.js';
 import './App.css';
-
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
   return (
-    <div className="App">
-      <h1>
-        Whats Gucci
-      </h1>
-    </div>
+   <>
+   <Router>
+    <NavBar/>
+      <Routes>
+        <Route path='/' exact/>
+
+        
+      </Routes>
+   </Router>
+    
+   </>
   );
 }
 
