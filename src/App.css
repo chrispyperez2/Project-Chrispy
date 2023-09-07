@@ -6,9 +6,11 @@
 }
 
 .home,
-.services,
-.products,
-.sign-up {
+.hobbies,
+.family,
+.skills,
+.travels
+ {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -16,8 +18,8 @@
   font-size: 3rem;
 }
 
-.services {
-  background-image: url('/public/images/img-2.jpg');
+.hobbies {
+  background-image: url('/public/images/volvo.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -25,17 +27,26 @@
   font-size: 100px;
 }
 
-.products {
-  background-image: url('/public/images/img-1.jpg');
+.skills {
+  background-image: url('/public/images/3Dprinter.jpg');
   background-position: center;
-  background-size: fill;
+  background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
 }
 
-.sign-up {
-  background-image: url('/public/images/img-8.jpg');
+.family {
+  background-image: url('/public/images/doggos.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.travels {
+  background-image: url('/public/images/cambodia.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

@@ -4,45 +4,45 @@ import './Cards.css'
 function Cards() {
   return (
     <div className='cards'> 
-      <h1>Check out these EPIC Destinations!</h1>
+      <h1>Check out what makes Chris . . .  CHRIS!!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem 
-            src="images/img-9.jpg" 
-            text="Explore the hidden waterfall deep inside the Amazon Jungle"
-            label="Adventure"
-            path="/services"
+            src="images/wrx.jpg" 
+            text="Loves to work on cars and track as much as his wallet can afford!"
+            label="Hobbies"
+            path="/hobbies"
             />
 
             <CardItem 
-            src="images/img-2.jpg" 
-            text="Travel through the Islands of Bali in a Private Cruise!"
-            label="Luxary"
-            path="/services"
+            src="images/cambodia.jpg" 
+            text="Loves to travel, especially anywhere that has cheap beer!"
+            label="Travels"
+            path="/travels"
             />
           </ul>
 
           <ul className='cards__items'>
             <CardItem 
-            src="images/img-1.jpg" 
-            text="Explore the hidden waterfall deep inside the Amazon Jungle"
-            label="Adventure"
-            path="/services"
+            src="images/3DPrinter.jpg" 
+            text="Constantly teaches himself new skills to keep growing!"
+            label="Skills"
+            path="/skills"
             />
 
             <CardItem 
-            src="images/img-3.jpg" 
-            text="Travel through the Islands of Bali in a Private Cruise!"
-            label="Luxary"
-            path="/services"
+            src="images/morningGlory.jpg" 
+            text="Enjoys learning about gardening! (Even though he has no green thumb)"
+            label="Hobbies"
+            path="/hobbies"
             />
 
             <CardItem 
-            src="images/img-5.jpg" 
-            text="Travel through the Islands of Bali in a Private Cruise!"
-            label="Luxary"
-            path="/services"
+            src="images/doggos.jpg" 
+            text="Has a special bond with his family and his dogs!"
+            label="Who he loves"
+            path="/family"
             />
           </ul>
         </div>
