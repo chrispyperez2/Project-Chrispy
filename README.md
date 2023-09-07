@@ -8,3 +8,7 @@ This Project is Dedicated to representing who I am as a person and an interactiv
 * discuss my travels
 * discuess my bond to my family and dogs
 * discuss what hobbies i enjoy
+* change logo
+* update/remove the footer list items
+* setup links for socials
+
