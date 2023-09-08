@@ -38,6 +38,9 @@ video {
   margin: 6px;
 }
 
+p.quote {
+  margin-top: 50px;
+}
 .fa-play-circle {
   margin-left: 4px;
 }
