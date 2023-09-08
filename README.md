@@ -10,4 +10,6 @@ This Project is Dedicated to representing who I am as a person and an interactiv
 * change logo
 * add notable achievements to experience section
 * add headshot photo somewhere.
+* pretty up the format of where i have worked, looks crushed together.
+* Use a different color for landing page verses.
 
