@@ -7,64 +7,28 @@ function Footer() {
     <div className='footer-container'> 
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join the Adventure newletter to receive our best vacation deals
-        </p>
-        <p className='footer-subscription-text'>
-          You can unsubscribe at anytime.
+          Contact me via email or with social media using the links below!
         </p>
 
       </section>
 
-      <div className='footer-links'>
-        <div className='footer-link-wrapper'>
-          <div className='footer-link-items'>
-            <h2>About Us </h2>
-            <Link to='/skills'> How It Works</Link>
-            <Link to='/'> Testimonials </Link>
-            <Link to='/'> Careers </Link>
-            <Link to='/'> Investors </Link>
-            <Link to='/'> Terms Of Service </Link>
-          </div>
-        <div className='footer-link-items'>
-          <h2>Contact Us2 </h2>
-          <Link to='/'> Contact</Link>
-          <Link to='/'> Support </Link>
-          <Link to='/'> Destinations </Link>
-          <Link to='/'> Sponsorship </Link>
-        </div>
-      </div>
-        <div className='footer-link-wrapper'>
-          <div className='footer-link-items'>
-            <h2>Contact Us3 </h2>
-            <Link to='/'> Contact</Link>
-            <Link to='/'> Support </Link>
-            <Link to='/'> Destinations </Link>
-            <Link to='/'> Sponsorship </Link>
-    
-          </div>
-          <div className='footer-link-items'>
-            <h2>Contact Us4 </h2>
-            <Link to='/'> Contact</Link>
-            <Link to='/'> Support </Link>
-            <Link to='/'> Destinations </Link>
-            <Link to='/'> Sponsorship </Link>
-    
-          </div>
-        </div>
-      </div>
       <section class='social-media'>
         <div class='social-media-wrap'>
-          <div class='footer-logo'>
-            <Link to='/' className='social-logo'>
-              Kuhrisp 
-              <i class='fab fa-typo3' />
-            </Link>
-          </div>
+          <p className='email'>chris.perezca@gmail.com</p>
           <small className='website-rights'>Kuhrisp © 2023 </small>
           <div className='social-icons'>
             <Link 
+            class='social-icon-link linkedin' 
+            to='https://www.linkedin.com/in/christian-perez-castanaza/' 
+            target='_blank'
+            aria-label='LinkedIn'
+            >
+              <i class='fab fa-linkedin'/>
+            </Link>
+
+            <Link 
             class='social-icon-link facebook' 
-            to='/' 
+            to='https://www.facebook.com/christian.c.perez.98' 
             target='_blank'
             aria-label='Facebook'
             >
@@ -73,21 +37,13 @@ function Footer() {
 
             <Link 
             class='social-icon-link instagram' 
-            to='/' 
+            to='https://www.instagram.com/kuhrisp_wrx/' 
             target='_blank'
             aria-label='Instagram'
             >
               <i class='fab fa-instagram'/>
             </Link>
 
-            <Link 
-            class='social-icon-link linkedin' 
-            to='/' 
-            target='_blank'
-            aria-label='LinkedIn'
-            >
-              <i class='fab fa-linkedin'/>
-            </Link>
           </div>
         </div>
       </section>
