@@ -17,7 +17,7 @@ function Cards() {
 
             <CardItem 
             src="images/cambodia.jpg" 
-            text="Loves to travel, especially anywhere that has cheap beer!"
+            text="Struck with Wanderlust... wandering anywhere that has cheap beer!"
             label="Travels"
             path="/travels"
             />
@@ -33,7 +33,7 @@ function Cards() {
 
             <CardItem 
             src="images/morningGlory.jpg" 
-            text="Enjoys learning about gardening! (Even though he has no green thumb)"
+            text="Enjoys hobbies of all kinds, including gardening! (Even though he has no green thumb)"
             label="Hobbies"
             path="/hobbies"
             />
@@ -41,8 +41,8 @@ function Cards() {
             <CardItem 
             src="images/doggos.jpg" 
             text="Has a special bond with his family and his dogs!"
-            label="Who he loves"
-            path="/family"
+            label="What's he working on now?"
+            path="/projects"
             />
           </ul>
         </div>

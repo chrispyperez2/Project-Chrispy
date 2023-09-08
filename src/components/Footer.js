@@ -27,6 +27,15 @@ function Footer() {
             </Link>
 
             <Link 
+            class='social-icon-link github' 
+            to='https://github.com/chrispyperez2/Project-Chrispy' 
+            target='_blank'
+            aria-label='Github'
+            >
+              <i class='fab fa-github'/>
+            </Link>
+
+            <Link 
             class='social-icon-link facebook' 
             to='https://www.facebook.com/christian.c.perez.98' 
             target='_blank'
