@@ -10,7 +10,7 @@ function SkillCards() {
           <div className='skill__experience__wrapper'> 
             <ul className='skill__cards__items'>
               <SkillCardItem 
-              text="Support the ATM(Automated Teller Machine) Operations teams that maintain the fleet using software-based cloud solutions
+              text="Support the ATM (Automated Teller Machine) Operations teams that maintain the fleet using software-based cloud solutions
               that reach our distributed systems spread throughout the US, ensuring that end-stream customers have complete access to
               their money when they need it. Provide debugging and recovery expertise for Ops during deployments and software testing. "
               label="Capital One / Feb 2018 - Present"
@@ -68,7 +68,7 @@ function SkillCards() {
               <SkillCardItem 
               text="Circuit Component Selection, Power Converters/Electronics, Board Assembly and Testing, Renewable Power
               Generation, Robotic Design/Assembly, Bluetooth "
-              label="Hardware"
+              label="Electrical"
               />
             </ul>
 
