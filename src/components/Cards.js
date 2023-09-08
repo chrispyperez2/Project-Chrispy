@@ -25,14 +25,14 @@ function Cards() {
 
           <ul className='cards__items'>
             <CardItem 
-            src="images/3DPrinter.jpg" 
+            src="images/circuit.jpg" 
             text="Take a look at what where he's worked and what he knows!"
             label="Skills"
             path="/skills"
             />
 
             <CardItem 
-            src="images/quadcopter.jpg" 
+            src="images/3DPrinter.jpg" 
             text="What's he working on now?"
             label="Projects"
             path="/projects"
