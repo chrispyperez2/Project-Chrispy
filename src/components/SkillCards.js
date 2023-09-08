@@ -4,7 +4,7 @@ import './SkillCards.css'
 function SkillCards() {
   return (
     <div className='skill__cards'> 
-      <h1>Full of Skills and Experience</h1>
+      <h1>Experience</h1>
       <div className='skills__and__experience__container'>
         <div className='skill__experience__container'>
           <div className='skill__experience__wrapper'> 
@@ -44,6 +44,7 @@ function SkillCards() {
         </div>
 
         <div className='skill__cards__container'>
+          <h1>Skills</h1>
           <div className='skill__cards__wrapper'>
             <ul className='skill__cards__items'>
               <SkillCardItem 

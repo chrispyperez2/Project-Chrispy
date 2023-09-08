@@ -7,15 +7,18 @@ h1 {
   text-align: center;
 }
 
+p.experience__content  {
+  text-align: center;
+}
+
 .skills__and__experience__container {
   display: flex;
-  flex-flow:row;
+  flex-flow:column;
   align-items: center;
   max-width: 1120px;
   width: 90%;
   margin: 0 auto;
 }
-
 
 .skill__experience__container {
   display: flex;
@@ -54,6 +57,7 @@ h1 {
   flex: 1;
   margin: 0 1rem;
   border-radius: 10px;
+  margin-bottom: 40px;
 }
 
 .skill__cards__item__pic-wrap {
