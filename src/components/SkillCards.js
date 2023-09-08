@@ -26,9 +26,9 @@ function SkillCards() {
             </ul>
             <ul className='skill__cards__items'>
               <SkillCardItem 
-              text="Being a Project Engineer / Field Technician I was responsible for field validations on our product lines and prototypes to ensure proper adherence to medical/privacy standards.
-              Kept senior management informed on project progress and proposed solutions for any engineering obstacles while keeping
-              costs and timelines in mind."
+              text="Being a Project Engineer / Field Technician, I was responsible for field validations on our product lines and prototypes to ensure proper adherence to medical/privacy standards
+              and product specifications. Kept senior management informed on project progress and proposed solutions for any
+              engineering obstacles while keeping costs and timelines in mind."
               label="Sound Imaging / July 2016 – May 2017"
               />
             </ul>

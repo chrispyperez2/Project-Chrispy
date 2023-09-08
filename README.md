@@ -4,11 +4,9 @@ This Project is Dedicated to representing who I am as a person and an interactiv
 
 ## TODO list:
 * Offload large MP4 files to s3 bucket and source from there.
-* add content to pages to explain who i am and what I am skilled at
 * discuss my travels
-* discuess my bond to my family and dogs
+* discuess my projects
 * discuss what hobbies i enjoy
 * change logo
-* update/remove the footer list items
-* setup links for socials
+* add notable achievements to experience section
 
