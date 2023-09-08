@@ -9,4 +9,5 @@ This Project is Dedicated to representing who I am as a person and an interactiv
 * discuss what hobbies i enjoy
 * change logo
 * add notable achievements to experience section
+* add headshot photo somewhere.
 

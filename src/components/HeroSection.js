@@ -18,7 +18,7 @@ function HeroSection() {
           WATCH TRAILER <i className='far fa-play-circle'/>
         </Button> */}
       </div>
-      <p className='quote'>"... in order to be a realist, you must believe in miracles"</p>
+      <p className='quote'>"... in order to be a realist, you must believe in miracles."</p>
       <br/>
       <p> - David Ben-Gurion</p>
     </div>
