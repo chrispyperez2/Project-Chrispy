@@ -10,13 +10,13 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem 
             src="images/wrx.jpg" 
-            text="Loves to work on cars and track as much as his wallet can afford!"
+            text="Cars, electronics, gardening and everything in between!"
             label="Hobbies"
             path="/hobbies"
             />
 
             <CardItem 
-            src="images/cambodia.jpg" 
+            src="images/angkorWat.jpg" 
             text="Struck with Wanderlust... wandering anywhere that has cheap beer!"
             label="Travels"
             path="/travels"
@@ -26,22 +26,15 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem 
             src="images/3DPrinter.jpg" 
-            text="Constantly teaches himself new skills to keep growing!"
+            text="Take a look at what where he's worked and what he knows!"
             label="Skills"
             path="/skills"
             />
 
             <CardItem 
-            src="images/morningGlory.jpg" 
-            text="Enjoys hobbies of all kinds, including gardening! (Even though he has no green thumb)"
-            label="Hobbies"
-            path="/hobbies"
-            />
-
-            <CardItem 
-            src="images/doggos.jpg" 
-            text="Has a special bond with his family and his dogs!"
-            label="What's he working on now?"
+            src="images/quadcopter.jpg" 
+            text="What's he working on now?"
+            label="Projects"
             path="/projects"
             />
           </ul>

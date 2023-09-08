@@ -36,7 +36,7 @@
 }
 
 .projects {
-  background-image: url('/public/images/doggos.jpg');
+  background-image: url('/public/images/quadcopter.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -45,7 +45,7 @@
 }
 
 .travels {
-  background-image: url('/public/images/cambodia.jpg');
+  background-image: url('/public/images/angkorWat.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
