@@ -45,48 +45,82 @@ function SkillCards() {
 
         <div className='skill__cards__container'>
           <h1>Skills</h1>
+          
           <div className='skill__cards__wrapper'>
-            <ul className='skill__cards__items'>
-              <SkillCardItem 
-              text="Typescript/Node.js, PostgreSQL, Python, Bash, Powershell, Arduino, Windows Management and Systems"
-              label="Software"
-              />
-            </ul>
-            <ul className='cards__items'>
-              <SkillCardItem 
-              text="Jenkins, Docker, Terraform, Ansible, Winrm, Splunk"
-              label="DevOps"
-              />
-            </ul>
-            <ul className='cards__items'>
-              <SkillCardItem 
-              text="Fusion 360, EagleCAD, Matlab, Pspice, LtSpice"
-              label="Design Tools"
-              />
-            </ul>
-            <ul className='cards__items'>
-              <SkillCardItem 
-              text="Circuit Component Selection, Power Converters/Electronics, Board Assembly and Testing, Renewable Power
-              Generation, Robotic Design/Assembly, Bluetooth "
-              label="Electrical"
-              />
-            </ul>
-
-            <ul className='cards__items'>
-              <SkillCardItem 
-              text="Agile, Scrum, Kanban"
-              label="Project Management"
-              />
-            </ul>
-            <ul className='cards__items'>
-              <SkillCardItem 
-              text="AWS Certified Cloud Practitioner 2022/ LabView Associate Developer 2017"
-              label="Certificates"
-              />
-            </ul>
-
+            <div className='skills__tree__container'>
+              <h3>
+                Software
+              </h3>
+              <ul>
+                <li>JavaScript</li>
+                <li> Python</li>
+                <li>PostgreSQL</li>
+                <li>Bash</li>
+                <li>Arduino</li>
+                <li>Powershell</li>
+              </ul>
+            </div>
+            <div className='skills__tree__container'>
+              <h3>
+                DevOps
+              </h3>
+              <ul>
+                <li>Jenkins</li>
+                <li>Docker</li>
+                <li>Terraform</li>
+                <li>Ansible</li>
+                <li>WinRM</li>
+                <li>Splunk</li>
+              </ul>
+              </div>
+            <div className='skills__tree__container'>
+              <h3>
+                Design Tools
+              </h3>
+              <ul >
+                <li>AutoDesk Fusion 360</li>
+                <li> EagleCAD</li>
+                <li>Matlab</li>
+                <li>Pspice</li>
+                <li>LtSpice</li>
+              </ul>
+            </div>
           </div>
+
+          <div className='skill__cards__wrapper'>
+            <div className='skills__tree__container'>
+              <h3>
+                Electrical
+              </h3>
+              <ul>
+                <li>Power Converters</li>
+                <li>Board Assembly and Testing</li>
+                <li>Renewable Power Generation
+                </li>
+                <li>Robotic Design/Assembly</li>
+                <li>Bluetooth</li>
+              </ul>
+            </div>
+            <div className='skills__tree__container'>
+              <h3>
+                Project Management
+              </h3>
+              <ul>
+                <li>Agile</li>
+                <li>Scrum</li>
+                <li>Kanban</li>
+              </ul>
+            </div>
+          </div>
+
         </div>
+          <div className=''>
+            <h1>Certificates</h1>
+            <ul>
+              <li>AWS Certified Cloud Practitioner 2022</li>
+              <li>LabView Associate Developer 2017</li>
+            </ul>
+          </div>
       </div>
 
     </div>

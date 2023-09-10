@@ -3,8 +3,12 @@
   background: #fff;
 }
 
-h1 {
+h1, h3 {
   text-align: center;
+}
+
+h3 {
+  margin-bottom: 10px;
 }
 
 p.experience__content  {
@@ -37,23 +41,33 @@ p.experience__content  {
 .skill__cards__container {
   display: flex;
   flex-flow: column;
-  align-items: center;
   max-width: 1120px;
   width: 90%;
   margin: 0 auto;
 }
 
 .skill__cards__wrapper {
-  position: relative;
+  display: flex;
+  flex-direction: row;
   margin: 50px 0 45px;
+  justify-content: space-between;
 }
 
-.skil__cards__items {
-  margin-bottom: 24px;
+.skills__tree__container {
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.skill__cards__items{
+  display: flex;
+  flex-direction: column;
 }
 
 .skill__cards__item {
   display: flex;
+  align-items: center;
+  flex-direction: column;
   flex: 1;
   margin: 0 1rem;
   border-radius: 10px;
@@ -86,13 +100,10 @@ p.experience__content  {
   box-sizing: border-box;
 }
 
-.skill__cards__item__info {
-  padding: 20px 30px 30px;
-}
-
 .skill__cards__item__text {
   color: #252e48;
-  font-size: 18px;
+  margin-bottom: 20px;
+  font-size: 24px;
   line-height: 24px;
 }
 
@@ -102,11 +113,11 @@ p.experience__content  {
   }
 }
 
-@media only screen and (min-width: 1024px) {
+/* @media only screen and (min-width: 1024px) {
   .skill__cards__items {
     display: flex;
   }
-}
+} */
 
 @media only screen and (max-width: 1024px) {
   .skill__cards__item {
