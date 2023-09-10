@@ -1,5 +1,5 @@
 .skill__cards {
-  padding: 4rem;
+  padding: 1rem;
   background: #fff;
 }
 
@@ -14,6 +14,15 @@ h3 {
 p.experience__content  {
   text-align: center;
 }
+
+.achievement__item {
+  font-size: 15px;
+}
+
+.achievement__list {
+  margin-bottom: 20px;
+}
+
 
 .certificates {
   display: flex;

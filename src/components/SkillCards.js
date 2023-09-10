@@ -16,6 +16,16 @@ function SkillCards() {
               their money when they need it. Provide debugging and recovery expertise for Ops during deployments and software testing. "
               label="Capital One / Feb 2018 - Present"
               />
+              <ul className='achievement__list'>
+                <li className='achievement__item'>Invented, tested and provisioned a new Cloud-Based Password system for Capital One ATMs that includes password generation, rotation, storage, failure recovery and resetting for over 1600 ATMs.</li>
+                <li className='achievement__item'>Proposed and Implemented our system transition to AWS Fargate to future-proof our cloud service with automated maintenance capabilities and scaling, reducing operating costs by over 40%.</li>
+                <li className='achievement__item'>Automated data collection to perform Root Cause Identification and Resolution for when ATMs fail health-checks to remotely begin recovery steps, saving the company in more technician costs.</li>
+                <li className='achievement__item'>Delivered robust tooling, scripting, backend systems integration and provisioning for the maintenance and recovery of ATMs deployed across the US, reducing the need for field repairs and decreasing trouble shooting jobs from 4 hours to 4 minutes</li>
+                <li className='achievement__item'>Established automated data collection, analysis and health reports through Splunk dashboards to develop a national view of the health of the ATM fleet.</li>
+                <li className='achievement__item'>Developed test cases to support future code development and establish traceability when potential bugs are introduced into the code base. </li>
+                <li className='achievement__item'>Performed a system modernization on internal Microsoft Service Installer pipelines to introduce a simpler method of deploying updates to ATMs out in the field.</li>
+              </ul>
+
             </ul>
             <ul className='skill__cards__items'>
               <SkillCardItem 
@@ -24,6 +34,10 @@ function SkillCards() {
               microsecond experiments."
               label="UCSD Science and Engineering Facility / Jan 2016 – Sep 2017"
               />
+              <ul className='achievement__list'>
+                <li className='achievement__item'>Designed, simulated and implemented high voltage / magnetic field calibration circuits used for energy research.</li>
+                <li className='achievement__item'>Created a Trigger Delay Unit for Pulsed Powered Plasma experiment diagnostics with ranges between 1ns-10ms, making it possible to track instantaneous experiment events.</li>
+              </ul>
             </ul>
             <ul className='skill__cards__items'>
               <SkillCardItem 
@@ -32,6 +46,10 @@ function SkillCards() {
               engineering obstacles while keeping costs and timelines in mind."
               label="Sound Imaging / July 2016 – May 2017"
               />
+              <ul className='achievement__list'>
+                <li className='achievement__item'>Performed product design verification and proposed prototype reiterations after testing devices within the MRI machines/environment in nearby hospitals and communicated test results to our CEO and Engineering staff.</li>
+                <li className='achievement__item'>Negotiated the reallocation of resources from a minimally cost effective MRI Ambiance project to refocus time and budget to our main product In-Patient Motion Detection Monitoring system</li>
+              </ul>
             </ul>
             <ul className='skill__cards__items'>
               <SkillCardItem 
@@ -40,6 +58,10 @@ function SkillCards() {
               solutions for refactoring and updating."
               label="V&P Scientific / July 2015 – Nov 2015"
               />
+              <ul className='achievement__list'>
+                <li className='achievement__item'>Redesigned and sourced stepper motor PCB using EAGLE CAD, slashing costs by 70% and vastly reducing the board size. </li>
+                <li className='achievement__item'>Reconciled returns of faulty stepper motors and validated repairs before shipments to hospitals and customers.</li>
+              </ul>
             </ul>
           </div>
         </div>
@@ -105,7 +127,7 @@ function SkillCards() {
               </h3>
               <ul>
                 <li>Agile / 2 yrs</li>
-                <li>Scrum / 3 yrs</li>
+                <li>Scrum / 2 yrs</li>
                 <li>Kanban / 1 yr</li>
               </ul>
             </div>
