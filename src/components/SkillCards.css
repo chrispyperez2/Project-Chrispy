@@ -15,6 +15,16 @@ p.experience__content  {
   text-align: center;
 }
 
+.certificates {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 24px;
+}
+
+.certificates__wrapper {
+  margin: 0 auto;
+}
+
 .skills__and__experience__container {
   display: flex;
   flex-flow:column;
@@ -50,7 +60,7 @@ p.experience__content  {
   display: flex;
   flex-direction: row;
   margin: 50px 0 45px;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .skills__tree__container {

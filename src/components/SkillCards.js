@@ -110,18 +110,19 @@ function SkillCards() {
               </ul>
             </div>
           </div>
-
         </div>
-          <div className=''>
-            <h1>Certificates</h1>
-            <ul>
-              <li>AWS Certified Cloud Practitioner 2022</li>
-              <li>LabView Associate Developer 2017</li>
-            </ul>
-          </div>
+      </div>
+      
+        <div className='certifiates__wrapper'>
+          <h1>Certificates</h1>
+          <ul className='certificates'>
+            <li>AWS Certified Cloud Practitioner 2022</li>
+            <li>LabView Associate Developer 2017</li>
+          </ul>
+        </div>
       </div>
 
-    </div>
+    
   )
 }
 
