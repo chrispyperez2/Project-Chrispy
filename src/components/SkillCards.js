@@ -1,6 +1,7 @@
 import React from 'react'
 import SkillCardItem from './SkillCardItem'
 import './SkillCards.css'
+
 function SkillCards() {
   return (
     <div className='skill__cards'> 
@@ -52,12 +53,11 @@ function SkillCards() {
                 Software
               </h3>
               <ul>
-                <li>JavaScript</li>
-                <li> Python</li>
-                <li>PostgreSQL</li>
-                <li>Bash</li>
-                <li>Arduino</li>
-                <li>Powershell</li>
+                <li>JavaScript /  3 yrs</li>
+                <li> Python / 2 yrs </li>
+                <li>PostgreSQL / 2 yrs</li>
+                <li>Arduino / 2 years</li>
+                <li>Powershell / 2 yrs</li>
               </ul>
             </div>
             <div className='skills__tree__container'>
@@ -65,12 +65,12 @@ function SkillCards() {
                 DevOps
               </h3>
               <ul>
-                <li>Jenkins</li>
-                <li>Docker</li>
-                <li>Terraform</li>
-                <li>Ansible</li>
-                <li>WinRM</li>
-                <li>Splunk</li>
+                <li>Jenkins / 4 yrs</li>
+                <li>Docker / 2 yrs</li>
+                <li>Terraform / 1 yr</li>
+                <li>Ansible / 1 yr</li>
+                <li>WinRM / 2 yrs</li>
+                <li>Splunk / 3 yrs</li>
               </ul>
               </div>
             <div className='skills__tree__container'>
@@ -78,11 +78,11 @@ function SkillCards() {
                 Design Tools
               </h3>
               <ul >
-                <li>AutoDesk Fusion 360</li>
-                <li> EagleCAD</li>
-                <li>Matlab</li>
-                <li>Pspice</li>
-                <li>LtSpice</li>
+                <li>AutoDesk Fusion 360 / 1 yr </li>
+                <li>EagleCAD / 2 yrs</li>
+                <li>Matlab / 2 yrs</li>
+                <li>Pspice / 2 yrs</li>
+                <li>LtSpice / 2 yrs</li>
               </ul>
             </div>
           </div>
@@ -93,12 +93,10 @@ function SkillCards() {
                 Electrical
               </h3>
               <ul>
-                <li>Power Converters</li>
-                <li>Board Assembly and Testing</li>
-                <li>Renewable Power Generation
-                </li>
-                <li>Robotic Design/Assembly</li>
-                <li>Bluetooth</li>
+                <li>Power Converters / 3 yrs</li>
+                <li>Board Assembly and Testing / 2 yrs</li>
+                <li>Robotic Design/Assembly / 3 yrs</li>
+                <li>Bluetooth / 2 yrs</li>
               </ul>
             </div>
             <div className='skills__tree__container'>
@@ -106,9 +104,9 @@ function SkillCards() {
                 Project Management
               </h3>
               <ul>
-                <li>Agile</li>
-                <li>Scrum</li>
-                <li>Kanban</li>
+                <li>Agile / 2 yrs</li>
+                <li>Scrum / 3 yrs</li>
+                <li>Kanban / 1 yr</li>
               </ul>
             </div>
           </div>
