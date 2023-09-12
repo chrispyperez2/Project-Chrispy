@@ -16,7 +16,8 @@ function SkillsHeroSection() {
         height='100%'
         id="background_video"
       />
-      <h1 className="skills"> He's got the C H O P S!</h1>
+      <h1 className="skills__quote"> He's got the </h1>
+      <h1 className="skills__quote__headline">$kills to pay the bills!</h1>
     </div>
   );
 }

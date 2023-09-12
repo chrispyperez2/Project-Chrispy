@@ -27,7 +27,7 @@ function HeroSection() {
       </div>
       <p className='quote'>"... in order to be a realist, you must believe in miracles."</p>
       <br/>
-      <p> - David Ben-Gurion</p>
+      <p className='quote__author'> - David Ben-Gurion</p>
       <br/>
     </div>
   );
