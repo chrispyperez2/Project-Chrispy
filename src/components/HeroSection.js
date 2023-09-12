@@ -2,11 +2,22 @@ import React from 'react';
 import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
+import ReactPlayer from 'react-player';
+
 
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <video src="/videos/wrx.mp4" autoPlay loop muted />
+      <ReactPlayer
+        url='https://project-chrispy-sources.s3.amazonaws.com/videos/wrx.mp4'
+        playing={true}
+        loop={true}
+        muted={true}
+        controls={false}
+        width='100%'
+        height='100%'
+        id="background_video"
+      />
       <h1>Christian Perez Castañaza</h1> 
       <p>Racing to succeed in EVERYTHING he does!</p>
       <div className='hero-btns'>
