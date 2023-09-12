@@ -5,6 +5,7 @@
 .projects__list__item__container {
   margin: auto;
   padding: 2rem;
+  align-items: center;
 }
 
 .project__item__image {
