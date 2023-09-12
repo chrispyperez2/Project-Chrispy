@@ -32,7 +32,7 @@ function Cards() {
             />
 
             <CardItem 
-            src="images/3DPrinter.jpg" 
+            src="images/3Dprinter.jpg" 
             text="What's he working on now?"
             label="Projects"
             path="/projects"
