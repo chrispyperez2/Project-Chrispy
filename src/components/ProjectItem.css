@@ -3,11 +3,8 @@
 }
 
 .projects__list__item__container {
-  display: flex;
-  flex-direction: row;
   margin: auto;
   padding: 2rem;
-  align-items: center;
 }
 
 .project__item__image {
@@ -20,4 +17,19 @@
 
 .project__item__text {
   padding: 20px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .projects__list__item__container {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .projects__list__item__container  {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
