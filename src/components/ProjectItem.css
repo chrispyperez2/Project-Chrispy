@@ -11,10 +11,13 @@
 }
 
 .project__item__image {
-  width: 20%;
-  height: 20%;
+  width: 200px;
 }
 
 .project__item__title {
   text-align: center;
+}
+
+.project__item__text {
+  padding: 20px;
 }

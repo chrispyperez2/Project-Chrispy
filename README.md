@@ -3,7 +3,6 @@
 This Project is Dedicated to representing who I am as a person and an interactive format of a resume for employment opportunties. 
 
 ## TODO list:
-* Offload large MP4 files to s3 bucket and source from there.
 * discuss my travels
 * discuess my projects
 * discuss what hobbies i enjoy
@@ -12,4 +11,4 @@ This Project is Dedicated to representing who I am as a person and an interactiv
 * add headshot photo somewhere.
 * pretty up the format of where i have worked, looks crushed together.
 * Use a different color for landing page verses.
-
+* nav bar is out of screen when on landscape phone
