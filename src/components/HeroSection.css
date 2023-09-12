@@ -40,7 +40,9 @@ video {
 
 p.quote {
   margin-top: 50px;
+  text-align: center;
 }
+
 .fa-play-circle {
   margin-left: 4px;
 }

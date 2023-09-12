@@ -19,15 +19,11 @@ function HeroSection() {
         id="background_video"
       />
       <h1>Christian Perez Castañaza</h1> 
-      <p>Racing to succeed in EVERYTHING he does!</p>
+      <p className='quote'>Racing to succeed in EVERYTHING he does!</p>
       <div className='hero-btns'>
         <Button className="btns" buttonStyle='btn--outline' buttonSize='btn--large'>
           Why Hire him?
         </Button>
-
-        {/* <Button className="btns" buttonStyle='btn--primary' buttonSize='btn--large'>
-          WATCH TRAILER <i className='far fa-play-circle'/>
-        </Button> */}
       </div>
       <p className='quote'>"... in order to be a realist, you must believe in miracles."</p>
       <br/>
