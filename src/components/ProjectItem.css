@@ -1,0 +1,20 @@
+.projects__list {
+
+}
+
+.projects__list__item__container {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  padding: 2rem;
+  align-items: center;
+}
+
+.project__item__image {
+  width: 20%;
+  height: 20%;
+}
+
+.project__item__title {
+  text-align: center;
+}
