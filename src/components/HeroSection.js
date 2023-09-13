@@ -9,7 +9,7 @@ function HeroSection() {
   return (
     <div className='hero-container'>
       <ReactPlayer
-        url='https://project-chrispy-sources.s3.amazonaws.com/videos/wrx.mp4'
+        url='https://d1hdl6pwuskfno.cloudfront.net/videos/wrx.mp4'
         playing={true}
         loop={true}
         muted={true}

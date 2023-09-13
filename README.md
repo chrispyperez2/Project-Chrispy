@@ -14,3 +14,4 @@ This Project is Dedicated to representing who I am as a person and an interactiv
 * nav bar is out of screen when on landscape phone
 * main hero section is pushed off screen when on landscape mode
 * need photo for
+* add testing for react components, using Enzyme/ mocha ?

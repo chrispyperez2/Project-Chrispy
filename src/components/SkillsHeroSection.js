@@ -7,7 +7,7 @@ function SkillsHeroSection() {
   return (
     <div className='hero-container'>
       <ReactPlayer
-        url='https://project-chrispy-sources.s3.amazonaws.com/videos/3dprinting.mp4'
+        url='https://d1hdl6pwuskfno.cloudfront.net/videos/3dprinting.mp4'
         playing={true}
         loop={true}
         muted={true}
