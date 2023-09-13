@@ -13,3 +13,4 @@ This Project is Dedicated to representing who I am as a person and an interactiv
 * Use a different color for landing page verses.
 * nav bar is out of screen when on landscape phone
 * main hero section is pushed off screen when on landscape mode
+* need photo for

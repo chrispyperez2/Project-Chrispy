@@ -11,8 +11,9 @@ export default function Projects() {
         <ul className="projects__list">
           <ProjectItem
           label="IP Web Camera Security System"
-          text="Using old android phones as IP webcameras, I am streaming the video to a computer/raspberry pi running an OpenCV based Image detection software to detect people in my house while I'm away on vacations or extended family visits."
-          src="images/wrx.jpg"
+          text="Using old android phones as IP webcameras, I am streaming the video to a computer/raspberry pi running an OpenCV based Image detection software to eventually detect people in my house while I'm away on vacations or extended family visits. After accidentally short circuiting my raspberry Pi B+, I am now tasked 
+          with the challenge of find another suitable image processor. I will stream to my computer in the meantime to continue development. So far, im testing some face detection software and will use it to learn and maybe base my version of software off it. "
+          src="images/faceDetection.jpg"
           />
 
           <ProjectItem
