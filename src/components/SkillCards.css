@@ -45,6 +45,7 @@ p.experience__content  {
 
 .skills__item {
   display: flex;
+  justify-content: center;
 }
 
 .skill__experience__container {
@@ -70,8 +71,10 @@ p.experience__content  {
 }
 
 .skill__cards__wrapper {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 30px 150px;
+  list-style: none;
   margin: 50px 0 45px;
   justify-content: space-evenly;
 }
@@ -80,6 +83,7 @@ p.experience__content  {
   margin-right: 10px;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .skill__cards__items{

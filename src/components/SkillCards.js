@@ -39,7 +39,7 @@ function SkillCards() {
                 <li className='achievement__item'>Created a Trigger Delay Unit for Pulsed Powered Plasma experiment diagnostics with ranges between 1ns-10ms, making it possible to track instantaneous experiment events.</li>
               </ul>
             </ul>
-            <ul className='skill__cards__items'>
+   
               <SkillCardItem 
               text="Being a Project Engineer / Field Technician, I was responsible for field validations on our product lines and prototypes to ensure proper adherence to medical/privacy standards
               and product specifications. Kept senior management informed on project progress and proposed solutions for any
@@ -50,8 +50,8 @@ function SkillCards() {
                 <li className='achievement__item'>Performed product design verification and proposed prototype reiterations after testing devices within the MRI machines/environment in nearby hospitals and communicated test results to our CEO and Engineering staff.</li>
                 <li className='achievement__item'>Negotiated the reallocation of resources from a minimally cost effective MRI Ambiance project to refocus time and budget to our main product In-Patient Motion Detection Monitoring system</li>
               </ul>
-            </ul>
-            <ul className='skill__cards__items'>
+
+
               <SkillCardItem 
               text="As an Assistant Quality Control Engineer, I identified areas of potential improvement and cost cutting using modern manufacturing practices for quick development and
               rapid iterations of electronic circuits and board assembly. Paired with senior engineering to diagnose returns and propose
@@ -62,87 +62,85 @@ function SkillCards() {
                 <li className='achievement__item'>Redesigned and sourced stepper motor PCB using EAGLE CAD, slashing costs by 70% and vastly reducing the board size. </li>
                 <li className='achievement__item'>Reconciled returns of faulty stepper motors and validated repairs before shipments to hospitals and customers.</li>
               </ul>
+
+          </div>
+        </div>
+      </div>
+
+      <div className='skill__cards__container'>
+        <h1>Skills</h1>
+        <div className='skill__cards__wrapper'>
+          <div className='skills__tree__container'>
+            <h3>
+              Software
+            </h3>
+            <ul>
+              <li className='skills__item'>JavaScript /  3 yrs</li>
+              <li className='skills__item'> Python / 2 yrs </li>
+              <li className='skills__item'>PostgreSQL / 2 yrs</li>
+              <li className='skills__item'>Arduino / 2 years</li>
+              <li className='skills__item'>Powershell / 2 yrs</li>
+            </ul>
+          </div>
+          <div className='skills__tree__container'>
+            <h3>
+              DevOps
+            </h3>
+            <ul>
+              <li className='skills__item'>Jenkins / 4 yrs</li>
+              <li className='skills__item'>Docker / 2 yrs</li>
+              <li className='skills__item'>Terraform / 1 yr</li>
+              <li className='skills__item'>Ansible / 1 yr</li>
+              <li className='skills__item'>WinRM / 2 yrs</li>
+              <li className='skills__item'>Splunk / 3 yrs</li>
+            </ul>
+          </div>
+          <div className='skills__tree__container'>
+            <h3>
+              Design Tools
+            </h3>
+            <ul >
+              <li className='skills__item'>AutoDesk Fusion 360 / 1 yr </li>
+              <li className='skills__item'>EagleCAD / 2 yrs</li>
+              <li className='skills__item'> Matlab / 2 yrs</li>
+              <li className='skills__item'>Pspice / 2 yrs</li>
+              <li className='skills__item'>LtSpice / 2 yrs</li>
+            </ul>
+          </div>
+   
+          <div className='skills__tree__container'>
+            <h3>
+              Electrical
+            </h3>
+            <ul>
+              <li className='skills__item'>Power Converters / 3 yrs</li>
+              <li className='skills__item'>Board Assembly and Testing / 2 yrs</li>
+              <li className='skills__item'>Robotic Design/Assembly / 3 yrs</li>
+              <li className='skills__item'>Bluetooth / 2 yrs</li>
+            </ul>
+          </div>
+          <div className='skills__tree__container'>
+            <h3>
+              Project Management
+            </h3>
+            <ul>
+              <li className='skills__item'>Agile / 2 yrs</li>
+              <li className='skills__item'>Scrum / 2 yrs</li>
+              <li className='skills__item'>Kanban / 1 yr</li>
             </ul>
           </div>
         </div>
-
-        <div className='skill__cards__container'>
-          <h1>Skills</h1>
-          
-          <div className='skill__cards__wrapper'>
-            <div className='skills__tree__container'>
-              <h3>
-                Software
-              </h3>
-              <ul>
-                <li className='skills__item'>JavaScript /  3 yrs</li>
-                <li className='skills__item'> Python / 2 yrs </li>
-                <li className='skills__item'>PostgreSQL / 2 yrs</li>
-                <li className='skills__item'>Arduino / 2 years</li>
-                <li className='skills__item'>Powershell / 2 yrs</li>
-              </ul>
-            </div>
-            <div className='skills__tree__container'>
-              <h3>
-                DevOps
-              </h3>
-              <ul>
-                <li className='skills__item'>Jenkins / 4 yrs</li>
-                <li className='skills__item'>Docker / 2 yrs</li>
-                <li className='skills__item'>Terraform / 1 yr</li>
-                <li className='skills__item'>Ansible / 1 yr</li>
-                <li className='skills__item'>WinRM / 2 yrs</li>
-                <li className='skills__item'>Splunk / 3 yrs</li>
-              </ul>
-              </div>
-            <div className='skills__tree__container'>
-              <h3>
-                Design Tools
-              </h3>
-              <ul >
-                <li className='skills__item'>AutoDesk Fusion 360 / 1 yr </li>
-                <li className='skills__item'>EagleCAD / 2 yrs</li>
-                <li className='skills__item'> Matlab / 2 yrs</li>
-                <li className='skills__item'>Pspice / 2 yrs</li>
-                <li className='skills__item'>LtSpice / 2 yrs</li>
-              </ul>
-            </div>
-          </div>
-
-          <div className='skill__cards__wrapper'>
-            <div className='skills__tree__container'>
-              <h3>
-                Electrical
-              </h3>
-              <ul>
-                <li className='skills__item'>Power Converters / 3 yrs</li>
-                <li className='skills__item'>Board Assembly and Testing / 2 yrs</li>
-                <li className='skills__item'>Robotic Design/Assembly / 3 yrs</li>
-                <li className='skills__item'>Bluetooth / 2 yrs</li>
-              </ul>
-            </div>
-            <div className='skills__tree__container'>
-              <h3>
-                Project Management
-              </h3>
-              <ul>
-                <li className='skills__item'>Agile / 2 yrs</li>
-                <li className='skills__item'>Scrum / 2 yrs</li>
-                <li className='skills__item'>Kanban / 1 yr</li>
-              </ul>
-            </div>
-          </div>
-        </div>
       </div>
+    
       
-        <div className='certifiates__wrapper'>
-          <h1>Certificates</h1>
-          <ul className='certificates'>
-            <li className='skills__item'>AWS Certified Cloud Practitioner 2022</li>
-            <li className='skills__item'>LabView Associate Developer 2017</li>
-          </ul>
-        </div>
+      <div className='certifiates__wrapper'>
+        <h1>Certificates</h1>
+        <ul className='certificates'>
+          <li className='skills__item'>AWS Certified Cloud Practitioner 2022</li>
+          <li className='skills__item'>LabView Associate Developer 2017</li>
+        </ul>
       </div>
+    </div>
 
     
   )
