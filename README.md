@@ -15,3 +15,4 @@ This Project is Dedicated to representing who I am as a person and an interactiv
 * main hero section is pushed off screen when on landscape mode
 * need photo for
 * add testing for react components, using Enzyme/ mocha ?
+* formatting and video players are different for safari

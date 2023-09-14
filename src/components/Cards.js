@@ -9,22 +9,6 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem 
-            src="images/wrx.jpg" 
-            text="Cars, electronics, gardening and everything in between!"
-            label="Hobbies"
-            path="/hobbies"
-            />
-
-            <CardItem 
-            src="images/angkorWat.jpg" 
-            text="Struck with Wanderlust... wandering anywhere that has cheap beer!"
-            label="Travels"
-            path="/travels"
-            />
-          </ul>
-
-          <ul className='cards__items'>
-            <CardItem 
             src="images/circuit.jpg" 
             text="Take a look at what where he's worked and what he knows!"
             label="Skills"
@@ -36,6 +20,22 @@ function Cards() {
             text="What's he working on now?"
             label="Projects"
             path="/projects"
+            />
+          </ul>
+
+          <ul className='cards__items'>
+            <CardItem 
+            src="images/wrx.jpg" 
+            text="Cars, electronics, gardening and everything in between!"
+            label="Hobbies"
+            path="/hobbies"
+            />
+
+            <CardItem 
+            src="images/angkorWat.jpg" 
+            text="Struck with Wanderlust... wandering anywhere that has cheap beer!"
+            label="Travels"
+            path="/travels"
             />
           </ul>
         </div>
