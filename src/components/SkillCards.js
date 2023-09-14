@@ -11,10 +11,16 @@ function SkillCards() {
           <div className='skill__experience__wrapper'> 
             <ul className='skill__cards__items'>
               <SkillCardItem 
+              text="Working as a Software Developer, I will help transform business operations using modern software solutions supported by a team with over 20 years of consulting experience."
+              label="Avadine / October 2023 - Present"
+              />
+
+
+              <SkillCardItem 
               text="Operating as a Senior Associate Developer, I support the ATM (Automated Teller Machine) Operations teams that maintain the fleet using software-based cloud solutions
               that reach our distributed systems spread throughout the US, ensuring that end-stream customers have complete access to
               their money when they need it. Provide debugging and recovery expertise for Ops during deployments and software testing. "
-              label="Capital One / Feb 2018 - Present"
+              label="Capital One / Feb 2018 - October 2023"
               />
               <ul className='achievement__list'>
                 <li className='achievement__item'>Invented, tested and provisioned a new Cloud-Based Password system for Capital One ATMs that includes password generation, rotation, storage, failure recovery and resetting for over 1600 ATMs.</li>
