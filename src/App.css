@@ -19,7 +19,7 @@
 }
 
 .hobbies {
-  background-image: url('/public/images/volvo.jpg');
+  background-image: url('https://d1hdl6pwuskfno.cloudfront.net/images/volvo.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -36,7 +36,7 @@
 }
 
 .projects {
-  background-image: url('/public/images/3Dprinter.jpg');
+  background-image: url('https://d1hdl6pwuskfno.cloudfront.net/images/3Dprinter.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -45,7 +45,7 @@
 }
 
 .travels {
-  background-image: url('/public/images/angkorWat.jpg');
+  /* background-image: url('/public/images/angkorWat.jpg'); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

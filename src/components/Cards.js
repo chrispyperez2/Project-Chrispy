@@ -9,14 +9,14 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem 
-            src="images/circuit.jpg" 
+            src="https://d1hdl6pwuskfno.cloudfront.net/images/circuit.jpg" 
             text="Take a look at what where he's worked and what he knows!"
             label="Skills"
             path="/skills"
             />
 
             <CardItem 
-            src="images/3Dprinter.jpg" 
+            src="https://d1hdl6pwuskfno.cloudfront.net/images/3Dprinter.jpg" 
             text="What's he working on now?"
             label="Projects"
             path="/projects"
@@ -25,14 +25,14 @@ function Cards() {
 
           <ul className='cards__items'>
             <CardItem 
-            src="images/wrx.jpg" 
+            src="https://d1hdl6pwuskfno.cloudfront.net/images/wrx.jpg" 
             text="Cars, electronics, gardening and everything in between!"
             label="Hobbies"
             path="/hobbies"
             />
 
             <CardItem 
-            src="images/angkorWat.jpg" 
+            src="https://d1hdl6pwuskfno.cloudfront.net/images/angkorWat.jpg" 
             text="Struck with Wanderlust... wandering anywhere that has cheap beer!"
             label="Travels"
             path="/travels"
