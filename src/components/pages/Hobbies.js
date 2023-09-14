@@ -1,7 +1,7 @@
 import React from "react";
 import '../../App.css';
 import { InstagramEmbed } from 'react-social-media-embed';
-import Footer from '../Footer'
+
 export default function Hobbies() {
   return (
     <>    
@@ -14,7 +14,7 @@ export default function Hobbies() {
         <InstagramEmbed url="https://www.instagram.com/p/Cl4k0RovZp3/?img_index=1" width={1000} />
       </div>
     </div>
-    <Footer/>
+
     </>
 
   ) 

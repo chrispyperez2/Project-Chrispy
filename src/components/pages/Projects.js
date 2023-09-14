@@ -1,6 +1,5 @@
 import React from "react";
 import '../../App.css';
-import Footer from '../Footer';
 import ProjectItem from "../ProjectItem";
 
 export default function Projects() {
@@ -25,7 +24,6 @@ export default function Projects() {
 
         </ul>
       </div>
-      <Footer/>
     </>
     
   ) 

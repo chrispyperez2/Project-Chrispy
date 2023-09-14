@@ -7,21 +7,22 @@ import Projects from './components/pages/Projects';
 import Skills from './components/pages/Skills';
 import Travels from './components/pages/Travels';
 import Hobbies from './components/pages/Hobbies'
+import Footer from './components/Footer.js'
 
 function App() {
   return (
    <>
-   <Router>
-    <NavBar/>
-      <Routes>
-        <Route path='/' exact Component={Home}/>
-        <Route path='/hobbies' exact Component={Hobbies}/>
-        <Route path='/projects' exact Component={Projects}/>
-        <Route path='/skills' exact Component={Skills}/>
-        <Route path='/travels' exact Component={Travels}/>
-      </Routes>
-   </Router>
-    
+    <Router>
+      <NavBar/>
+        <Routes>
+          <Route path='/' exact Component={Home}/>
+          <Route path='/hobbies' exact Component={Hobbies}/>
+          <Route path='/projects' exact Component={Projects}/>
+          <Route path='/skills' exact Component={Skills}/>
+          <Route path='/travels' exact Component={Travels}/>
+        </Routes>
+        <Footer/>
+    </Router>
    </>
   );
 }
