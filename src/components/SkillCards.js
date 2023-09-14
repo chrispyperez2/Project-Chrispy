@@ -87,7 +87,7 @@ function SkillCards() {
               DevOps
             </h3>
             <ul>
-              <li className='skills__item'>Jenkins / 4yrs</li>
+              <li className='skills__item'>Jenkins / 2yrs</li>
               <li className='skills__item'>Docker / 2yrs</li>
               <li className='skills__item'>Terraform / 1yr</li>
               <li className='skills__item'>Ansible / 1yr</li>
