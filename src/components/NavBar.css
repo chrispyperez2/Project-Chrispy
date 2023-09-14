@@ -116,8 +116,7 @@
 
   .navbar-logo {
     position: absolute;
-    /* top: -25px; */
-    bottom: 30px;
+    top: -25px;
     left: 0;
     transform: translate(25%, 50%);
   }
