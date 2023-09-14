@@ -1,0 +1,26 @@
+.instagram__item {
+  display: flex;
+  justify-content: center;
+}
+
+.hobbies__list {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  align-items: start;
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .hobbies__list {
+    grid-template-columns: repeat(1, auto);
+    align-items: start;
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+  }
+
+}
