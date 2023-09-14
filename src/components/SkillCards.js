@@ -18,9 +18,9 @@ function SkillCards() {
               />
               <ul className='achievement__list'>
                 <li className='achievement__item'>Invented, tested and provisioned a new Cloud-Based Password system for Capital One ATMs that includes password generation, rotation, storage, failure recovery and resetting for over 1600 ATMs.</li>
+                <li className='achievement__item'>Delivered robust tooling, scripting, backend systems integration and provisioning for the maintenance and recovery of ATMs deployed across the US, reducing the need for field repairs and decreasing trouble shooting jobs from 4 hours to 4 minutes, providing savings up $30k to $120k per month on technician work hours.</li>
                 <li className='achievement__item'>Proposed and Implemented our system transition to AWS Fargate to future-proof our cloud service with automated maintenance capabilities and scaling, reducing operating costs by over 40%.</li>
                 <li className='achievement__item'>Automated data collection to perform Root Cause Identification and Resolution for when ATMs fail health-checks to remotely begin recovery steps, saving the company in more technician costs.</li>
-                <li className='achievement__item'>Delivered robust tooling, scripting, backend systems integration and provisioning for the maintenance and recovery of ATMs deployed across the US, reducing the need for field repairs and decreasing trouble shooting jobs from 4 hours to 4 minutes, providing savings up $30k to $120k per month on technician work hours.</li>
                 <li className='achievement__item'>Established automated data collection, analysis and health reports through Splunk dashboards to develop a national view of the health of the ATM fleet.</li>
                 <li className='achievement__item'>Developed test cases to support future code development and establish traceability when potential bugs are introduced into the code base. </li>
                 <li className='achievement__item'>Performed a system modernization on internal Microsoft Service Installer pipelines to introduce a simpler method of deploying updates to ATMs out in the field.</li>
@@ -75,11 +75,11 @@ function SkillCards() {
               Software
             </h3>
             <ul>
-              <li className='skills__item'>JavaScript /  3 yrs</li>
-              <li className='skills__item'> Python / 2 yrs </li>
-              <li className='skills__item'>PostgreSQL / 2 yrs</li>
-              <li className='skills__item'>Arduino / 2 years</li>
-              <li className='skills__item'>Powershell / 2 yrs</li>
+              <li className='skills__item'>JavaScript / 3yrs</li>
+              <li className='skills__item'> Python / 2yrs </li>
+              <li className='skills__item'>PostgreSQL / 2yrs</li>
+              <li className='skills__item'>Arduino / 2years</li>
+              <li className='skills__item'>Powershell / 2yrs</li>
             </ul>
           </div>
           <div className='skills__tree__container'>
@@ -87,12 +87,12 @@ function SkillCards() {
               DevOps
             </h3>
             <ul>
-              <li className='skills__item'>Jenkins / 4 yrs</li>
-              <li className='skills__item'>Docker / 2 yrs</li>
-              <li className='skills__item'>Terraform / 1 yr</li>
-              <li className='skills__item'>Ansible / 1 yr</li>
-              <li className='skills__item'>WinRM / 2 yrs</li>
-              <li className='skills__item'>Splunk / 3 yrs</li>
+              <li className='skills__item'>Jenkins / 4yrs</li>
+              <li className='skills__item'>Docker / 2yrs</li>
+              <li className='skills__item'>Terraform / 1yr</li>
+              <li className='skills__item'>Ansible / 1yr</li>
+              <li className='skills__item'>WinRM / 2yrs</li>
+              <li className='skills__item'>Splunk / 3yrs</li>
             </ul>
           </div>
           <div className='skills__tree__container'>
@@ -100,11 +100,11 @@ function SkillCards() {
               Design Tools
             </h3>
             <ul >
-              <li className='skills__item'>AutoDesk Fusion 360 / 1 yr </li>
-              <li className='skills__item'>EagleCAD / 2 yrs</li>
-              <li className='skills__item'> Matlab / 2 yrs</li>
-              <li className='skills__item'>Pspice / 2 yrs</li>
-              <li className='skills__item'>LtSpice / 2 yrs</li>
+              <li className='skills__item'>AutoDesk Fusion 360 / 1yr </li>
+              <li className='skills__item'>EagleCAD / 2yrs</li>
+              <li className='skills__item'> Matlab / 2yrs</li>
+              <li className='skills__item'>Pspice / 2yrs</li>
+              <li className='skills__item'>LtSpice / 2yrs</li>
             </ul>
           </div>
    
@@ -113,10 +113,10 @@ function SkillCards() {
               Electrical
             </h3>
             <ul>
-              <li className='skills__item'>Power Converters / 3 yrs</li>
-              <li className='skills__item'>Board Assembly and Testing / 2 yrs</li>
-              <li className='skills__item'>Robotic Design/Assembly / 3 yrs</li>
-              <li className='skills__item'>Bluetooth / 2 yrs</li>
+              <li className='skills__item'>Power Converters / 3yrs</li>
+              <li className='skills__item'>Board Assembly & Testing / 2yrs</li>
+              <li className='skills__item'>Robot Design & Assembly / 3yrs</li>
+              <li className='skills__item'>Bluetooth / 2yrs</li>
             </ul>
           </div>
           <div className='skills__tree__container'>
