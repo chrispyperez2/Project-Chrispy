@@ -45,7 +45,7 @@ function SkillCards() {
                 <li className='achievement__item'>Created a Trigger Delay Unit for Pulsed Powered Plasma experiment diagnostics with ranges between 1ns-10ms, making it possible to track instantaneous experiment events.</li>
               </ul>
             </ul>
-   
+            <ul className='skill__cards__items'>
               <SkillCardItem 
               text="Being a Project Engineer / Field Technician, I was responsible for field validations on our product lines and prototypes to ensure proper adherence to medical/privacy standards
               and product specifications. Kept senior management informed on project progress and proposed solutions for any
@@ -56,8 +56,8 @@ function SkillCards() {
                 <li className='achievement__item'>Performed product design verification and proposed prototype reiterations after testing devices within the MRI machines/environment in nearby hospitals and communicated test results to our CEO and Engineering staff.</li>
                 <li className='achievement__item'>Negotiated the reallocation of resources from a minimally cost effective MRI Ambiance project to refocus time and budget to our main product In-Patient Motion Detection Monitoring system</li>
               </ul>
-
-
+            </ul>
+            <ul className='skill__cards__items'>
               <SkillCardItem 
               text="As an Assistant Quality Control Engineer, I identified areas of potential improvement and cost cutting using modern manufacturing practices for quick development and
               rapid iterations of electronic circuits and board assembly. Paired with senior engineering to diagnose returns and propose
@@ -68,7 +68,7 @@ function SkillCards() {
                 <li className='achievement__item'>Redesigned and sourced stepper motor PCB using EAGLE CAD, slashing costs by 70% and vastly reducing the board size. </li>
                 <li className='achievement__item'>Reconciled returns of faulty stepper motors and validated repairs before shipments to hospitals and customers.</li>
               </ul>
-
+            </ul>
           </div>
         </div>
       </div>
