@@ -75,11 +75,11 @@ function SkillCards() {
                 Software
               </h3>
               <ul>
-                <li>JavaScript /  3 yrs</li>
-                <li> Python / 2 yrs </li>
-                <li>PostgreSQL / 2 yrs</li>
-                <li>Arduino / 2 years</li>
-                <li>Powershell / 2 yrs</li>
+                <li className='skills__item'>JavaScript /  3 yrs</li>
+                <li className='skills__item'> Python / 2 yrs </li>
+                <li className='skills__item'>PostgreSQL / 2 yrs</li>
+                <li className='skills__item'>Arduino / 2 years</li>
+                <li className='skills__item'>Powershell / 2 yrs</li>
               </ul>
             </div>
             <div className='skills__tree__container'>
@@ -87,12 +87,12 @@ function SkillCards() {
                 DevOps
               </h3>
               <ul>
-                <li>Jenkins / 4 yrs</li>
-                <li>Docker / 2 yrs</li>
-                <li>Terraform / 1 yr</li>
-                <li>Ansible / 1 yr</li>
-                <li>WinRM / 2 yrs</li>
-                <li>Splunk / 3 yrs</li>
+                <li className='skills__item'>Jenkins / 4 yrs</li>
+                <li className='skills__item'>Docker / 2 yrs</li>
+                <li className='skills__item'>Terraform / 1 yr</li>
+                <li className='skills__item'>Ansible / 1 yr</li>
+                <li className='skills__item'>WinRM / 2 yrs</li>
+                <li className='skills__item'>Splunk / 3 yrs</li>
               </ul>
               </div>
             <div className='skills__tree__container'>
@@ -100,11 +100,11 @@ function SkillCards() {
                 Design Tools
               </h3>
               <ul >
-                <li>AutoDesk Fusion 360 / 1 yr </li>
-                <li>EagleCAD / 2 yrs</li>
-                <li>Matlab / 2 yrs</li>
-                <li>Pspice / 2 yrs</li>
-                <li>LtSpice / 2 yrs</li>
+                <li className='skills__item'>AutoDesk Fusion 360 / 1 yr </li>
+                <li className='skills__item'>EagleCAD / 2 yrs</li>
+                <li className='skills__item'> Matlab / 2 yrs</li>
+                <li className='skills__item'>Pspice / 2 yrs</li>
+                <li className='skills__item'>LtSpice / 2 yrs</li>
               </ul>
             </div>
           </div>
@@ -115,10 +115,10 @@ function SkillCards() {
                 Electrical
               </h3>
               <ul>
-                <li>Power Converters / 3 yrs</li>
-                <li>Board Assembly and Testing / 2 yrs</li>
-                <li>Robotic Design/Assembly / 3 yrs</li>
-                <li>Bluetooth / 2 yrs</li>
+                <li className='skills__item'>Power Converters / 3 yrs</li>
+                <li className='skills__item'>Board Assembly and Testing / 2 yrs</li>
+                <li className='skills__item'>Robotic Design/Assembly / 3 yrs</li>
+                <li className='skills__item'>Bluetooth / 2 yrs</li>
               </ul>
             </div>
             <div className='skills__tree__container'>
@@ -126,9 +126,9 @@ function SkillCards() {
                 Project Management
               </h3>
               <ul>
-                <li>Agile / 2 yrs</li>
-                <li>Scrum / 2 yrs</li>
-                <li>Kanban / 1 yr</li>
+                <li className='skills__item'>Agile / 2 yrs</li>
+                <li className='skills__item'>Scrum / 2 yrs</li>
+                <li className='skills__item'>Kanban / 1 yr</li>
               </ul>
             </div>
           </div>
@@ -138,8 +138,8 @@ function SkillCards() {
         <div className='certifiates__wrapper'>
           <h1>Certificates</h1>
           <ul className='certificates'>
-            <li>AWS Certified Cloud Practitioner 2022</li>
-            <li>LabView Associate Developer 2017</li>
+            <li className='skills__item'>AWS Certified Cloud Practitioner 2022</li>
+            <li className='skills__item'>LabView Associate Developer 2017</li>
           </ul>
         </div>
       </div>

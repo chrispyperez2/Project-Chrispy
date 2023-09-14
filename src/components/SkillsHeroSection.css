@@ -1,0 +1,32 @@
+.skills__hero__container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+
+.skills__hero__container > h1 {
+  color: #fff;
+  font-size: 100px;
+}
+
+.skills__quote__headline {
+  margin-bottom: 400px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .hero__container > h1 {
+    font-size: 50px;
+    margin-top: 200px
+  }
+
+  .skills__hero__container > h1 {
+    font-size: 50px;
+    margin-top: 20px
+  }
+}

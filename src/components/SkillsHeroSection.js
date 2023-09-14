@@ -1,11 +1,11 @@
 import React from 'react';
 import '../App.css';
-import './HeroSection.css';
+import './SkillsHeroSection.css';
 import ReactPlayer from 'react-player';
 
 function SkillsHeroSection() {
   return (
-    <div className='hero-container'>
+    <div className='skills__hero__container'>
       <ReactPlayer
         url='https://d1hdl6pwuskfno.cloudfront.net/videos/3dprinting.mp4'
         playing={true}

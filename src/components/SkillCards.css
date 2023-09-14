@@ -43,6 +43,10 @@ p.experience__content  {
   margin: 0 auto;
 }
 
+.skills__item {
+  display: flex;
+}
+
 .skill__experience__container {
   display: flex;
   flex-flow: column;
@@ -141,5 +145,9 @@ p.experience__content  {
 @media only screen and (max-width: 1024px) {
   .skill__cards__item {
     margin-bottom: 2rem;
+  }
+  
+  .skills__item {
+    font-size: smaller;
   }
 }

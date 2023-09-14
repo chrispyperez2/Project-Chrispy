@@ -6,7 +6,7 @@ video {
   z-index: -1;
 }
 
-.hero-container {
+.hero__container {
   height: 100vh;
   width: 100%;
   display: flex;
@@ -17,12 +17,12 @@ video {
   object-fit: contain;
 }
 
-.hero-container > h1 {
+.hero__container > h1 {
   color: #fff;
   font-size: 100px;
 }
 
-.hero-container > p {
+.hero__container > p {
   margin-top: 8px;
   color:#fff;
   font-size: 32px;
@@ -51,25 +51,28 @@ p.quote__author {
   margin-left: 4px;
 }
 
-.skills__quote__headline {
-  margin-bottom: 400px;
-  text-align: center;
-}
+
 
 @media screen and (max-width: 960px) {
-  .hero-container > h1 {
+  .hero__container > h1 {
     font-size: 70px;
     margin-top: 200px
   }
 }
 
 @media screen and (max-width: 768px) {
-  .hero-container > h1 {
+  .hero__container > h1 {
     font-size: 50px;
     margin-top: 200px
   }
+
+  .skills__hero__container > h1 {
+    font-size: 50px;
+    margin-top: 20px
+  }
   
-  .hero-container > p {
+  
+  .hero__container > p {
     font-size: 30px;
   }
 

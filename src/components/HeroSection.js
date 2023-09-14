@@ -7,7 +7,7 @@ import ReactPlayer from 'react-player';
 
 function HeroSection() {
   return (
-    <div className='hero-container'>
+    <div className='hero__container'>
       <ReactPlayer
         url='https://d1hdl6pwuskfno.cloudfront.net/videos/wrx.mp4'
         playing={true}
